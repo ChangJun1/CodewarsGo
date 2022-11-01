@@ -30,6 +30,8 @@ func GetCount(str string) (count int) {
 	return count
 }
 
+// case 'a','e','i','o','u':
+
 func main() {
 	fmt.Println(GetCount("abracadabra"))
 }
